@@ -1,0 +1,372 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container{
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*header*/
+header{
+  background-color: black;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100;
+}
+nav .logo{
+  float: left;
+  width: 80px;
+  height: 40px;
+}
+nav .nav{
+  float: right;
+}
+nav .nav li{
+  display: inline-block;
+  padding: 10px 12px;
+}
+nav .nav li a{
+  color: white;
+  text-transform: capitalize;
+  display: block;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*第一區塊*/
+.homebg{
+  background-image: url(../img/10662881.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.container_table{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.container_tablecell{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.elsa{
+  color: white;
+  font-size: 52px;
+  text-transform: capitalize;
+}
+.social_icons a{
+  color: white;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+/*第二區塊*/
+.aboutme{
+  padding: 100px 0;
+}
+.about .left, .right{
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+.left img{
+  width:300px;
+  margin-left: 260px
+}
+.about .right{
+  padding-left: 10px;
+}
+.right h3{
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 5px 0;
+}
+.right p{
+  font-size: 15px;
+}
+.info, .skill{
+  margin-bottom: 30px;
+}
+.button .downloadcv, .hireme{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.button a{
+  display: block;
+  padding:12px 30px;
+  color: black;
+}
+.button .downloadcv{
+  margin-right: 10px;
+}
+.button a:hover{
+  color: white;
+  background-color: black;
+  transition: all .2s linear;
+}
+/*第三區塊*/
+.myservice{
+  padding: 100px 0;
+  background-color:#f9f9f9;
+}
+.contents{
+  float: left;
+  width: 33.33333333333%;
+  padding: 0 15px;
+}
+.contents i{
+  font-size: 30px;
+  line-height: 46px;
+}
+.contents h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.contents p{
+  color: #767676;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/*第四區塊*/
+.resume{
+  padding: 100px 0;
+}
+.col-horizontal{
+  border-bottom: 1px solid #767676;
+}
+.col-horizontal:last-child{
+  border-bottom: none;
+}
+.col-horizontal .col-item{
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.col-horizontal h3{
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 5px 0;
+  margin-left: 15px;
+}
+.year{
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.detail h4{
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 30px
+}
+.detail h6{
+  font-size: 12px;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+.detail p{
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+/*第五區塊*/
+.quote{
+  padding: 70px 0;
+  background-image: url(../img/blackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed;
+}
+.quote-inner{
+  color: white;
+  text-align: center;
+}
+.quote h3{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.quote p{
+  font-size: 14px;
+  margin: 20px;
+}
+.quote-inner a{
+  border: 1px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/*第六區塊*/
+.works{
+  padding: 70px 0;
+  background-color: #f7f7f7;
+}
+.col-work{
+  float: left;
+  width: 33.33333333%;
+  padding: 0 15px;
+}
+.col-work a{
+  display: block;
+  margin-bottom: 15px;
+  transition: .2s linear;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.col-work a:hover{
+  box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+/*第七區塊*/
+.contact{
+  padding: 100px 0;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+.contactform .input:first-child, 
+.contactform .input:nth-child(2){
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.contactform .input:last-child{
+  width: 100%;
+  padding: 0 15px;
+}
+.input .style{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+.form textarea{
+  border: none;
+  outline: none;
+  width: 763px;
+  border-bottom: 1px solid black;
+  margin:0 15px;
+  margin-top: 10px;
+}
+.submit{
+  text-align: left;
+  padding: 0 15px;
+}
+.submit input{
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .4s;
+  outline: none;
+}
+.submit input:hover{
+  background-color: #000;
+  color: #fff;
+}
+/*footer*/
+footer{
+  background-color: black;
+  width: 100%;
+}
+.footcontent{
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+}
+.social_icons a{
+  color: white;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  font-size: 20px;
+}
